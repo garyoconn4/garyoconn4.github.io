@@ -1,0 +1,17 @@
+{
+  "id": "studytime-student",
+  "name": "StudyTime",
+  "short_name": "StudyTime",
+  "description": "Your Leaving Cert, levelled up.",
+  "start_url": "./student.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1020",
+  "theme_color": "#0B1020",
+  "icons": [
+    { "src": "icons/student-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/student-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/student-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

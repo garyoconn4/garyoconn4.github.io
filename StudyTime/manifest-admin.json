@@ -1,0 +1,14 @@
+{
+  "id": "studytime-admin",
+  "name": "StudyTime admin",
+  "short_name": "ST Admin",
+  "start_url": "./admin.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B1020",
+  "theme_color": "#0B1020",
+  "icons": [
+    { "src": "icons/student-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/student-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

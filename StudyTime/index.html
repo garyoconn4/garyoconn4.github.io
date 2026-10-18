@@ -1,1 +1,56 @@
-
+<!doctype html>
+<!--
+  StudyTime . Leaving Cert study planner, tracker and family dashboard
+  Copyright (c) 2026 Protech Dynamic Solutions Ltd. All rights reserved.
+  Built by Protech Dynamic Solutions . protechdynamic.com
+  Build 2db805d602, 2026-10-15T19:43:36.260Z
+-->
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>StudyTime</title>
+<meta name="description" content="StudyTime: Leaving Cert study planner, tracker and family dashboard.">
+<meta name="theme-color" content="#0B1020">
+<link rel="icon" type="image/png" href="icons/student-192.png">
+<link rel="apple-touch-icon" href="icons/student-180.png">
+<style>
+  :root { --bg: #0B1020; --panel: #121A38; --ink: #F3F6FF; --soft: #B9C3E0; --line: rgba(255,255,255,.1); --a: #4F7CFF; --b: #8B6CFF; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--ink); font: 500 17px/1.5 'Segoe UI', system-ui, -apple-system, sans-serif; }
+  body { background: radial-gradient(700px 480px at 85% -10%, rgba(79,124,255,.28), transparent 70%), radial-gradient(600px 500px at -10% 30%, rgba(139,108,255,.16), transparent 70%), var(--bg); }
+  main { max-width: 720px; margin: 0 auto; padding: calc(env(safe-area-inset-top, 0px) + 48px) 20px 32px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .word { font-weight: 800; font-size: 2.3rem; letter-spacing: -.03em; }
+  .word b { background: linear-gradient(120deg, var(--a), var(--b)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p.lede { color: var(--soft); font-size: 1.15rem; margin: 14px 0 30px; max-width: 34ch; }
+  .doors { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 560px) { .doors { grid-template-columns: 1fr; } }
+  a.door { display: block; text-decoration: none; color: var(--ink); padding: 22px; border-radius: 24px; background: var(--panel); border: 1px solid var(--line); transition: transform .15s, border-color .2s; }
+  a.door:hover, a.door:focus-visible { border-color: var(--a); transform: translateY(-2px); outline: none; }
+  a.door b { display: block; font-size: 1.35rem; letter-spacing: -.02em; margin-top: 12px; }
+  a.door span { color: var(--soft); font-size: .98rem; }
+  .ic { width: 48px; height: 48px; border-radius: 15px; display: grid; place-items: center; background: linear-gradient(140deg, var(--a), var(--b)); }
+  .ic.p { background: linear-gradient(140deg, #2F5BE0, #14A38B); }
+  .tips { margin-top: 30px; padding: 18px 20px; border-radius: 20px; border: 1px dashed var(--line); color: var(--soft); font-size: .95rem; }
+  .tips b { color: var(--ink); }
+  footer { margin-top: 36px; text-align: center; color: var(--soft); font-size: .85rem; }
+  footer a { color: var(--ink); font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg width="54" height="54" viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4F7CFF"/><stop offset="1" stop-color="#8B6CFF"/></linearGradient></defs><circle cx="32" cy="32" r="24" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="8"/><circle cx="32" cy="32" r="24" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-dasharray="113 151" transform="rotate(-90 32 32)"/><path d="M35 17 24 34h7l-2 13 11-17h-7z" fill="url(#g)"/></svg>
+    <div class="word">Study<b>Time</b></div>
+  </div>
+  <p class="lede">The Leaving Cert planner, tracker and family dashboard.</p>
+  <div class="doors">
+    <a class="door" href="student.html"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><b>I'm a student</b><span>Study next, focus timer, planner, CAO points, streaks.</span></a>
+    <a class="door" href="parent.html"><div class="ic p"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></div><b>I'm a parent</b><span>How each child is getting on, in one sentence.</span></a>
+  </div>
+  <div class="tips"><b>Put it on your home screen.</b> On an iPhone open the app in Safari, tap Share, then Add to Home Screen. On Android open it in Chrome, tap the three dots, then Install app or Add to Home screen.</div>
+  <footer><a href="privacy.html">Privacy</a> . Built by <a href="https://protechdynamic.com" target="_blank" rel="noopener">Protech Dynamic Solutions</a></footer>
+</main>
+</body>
+</html>
