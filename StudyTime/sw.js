@@ -5,10 +5,8 @@
    focus timer still work). Icons and the PDF and Excel libraries are cache
    first. Calls to Apps Script are never cached: the app queues changes
    itself and sends them when the signal is back.
-   Copyright (c) 2026 Protech Dynamic Solutions Ltd. All rights reserved.
-   Built by Protech Dynamic Solutions . protechdynamic.com
    ========================================================================== */
-const VERSION = '2db805d602';
+const VERSION = 'fb659fe5e4';
 const CORE = 'st-core-' + VERSION;
 const CDN = 'st-cdn-v1';
 const PAGES = ['./student.html', './parent.html', './admin.html', './index.html', './privacy.html', './config.js'];
