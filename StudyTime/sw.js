@@ -6,7 +6,7 @@
    first. Calls to Apps Script are never cached: the app queues changes
    itself and sends them when the signal is back.
    ========================================================================== */
-const VERSION = 'b19dff2bdb';
+const VERSION = '6327b5f912';
 const CORE = 'st-core-' + VERSION;
 const CDN = 'st-cdn-v1';
 const PAGES = ['./student.html', './parent.html', './admin.html', './index.html', './privacy.html', './config.js'];
